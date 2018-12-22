@@ -1,0 +1,19 @@
+{
+  "name": "bespoke-support/vat",
+  "description": "VAT Library using EU VIES",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "BespokeSupport\\Vat\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "App\\": "tests/"
+    }
+  },
+  "require": {
+    "php": "^7"
+  }
+}
